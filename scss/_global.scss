@@ -1,0 +1,10 @@
+body {
+	background: image-url( 'bg.png' );
+	background-size: 100px 100px;
+	padding: 10px;
+}
+
+section {
+	margin: 0 auto;
+	max-width: $body-width;
+}

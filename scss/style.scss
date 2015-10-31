@@ -1,2 +1,18 @@
+// configure some common style settings
+@import "settings";
+
+// move mixins to their own partial
+// @import "mixins";
+
 // all your styles are belong to us
 @import "CSS:../components/normalize-css/normalize";
+
+// global styles
+@import "global";
+
+// reusable bits
+@import "modules";
+
+// // template parts
+// @import "header";
+// @import "footer";
