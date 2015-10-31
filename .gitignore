@@ -1,2 +1,18 @@
+# Ignore Bower and Grunt related modules
+node_modules
+
+# Ignore automatically generated cruft
+*.log
 .sass-cache
 *.css.map
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*.swp
