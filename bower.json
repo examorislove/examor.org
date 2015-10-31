@@ -1,0 +1,9 @@
+{
+	"name": "Examor.org",
+	"version": "0.1",
+	"main": "/",
+	"private": true,
+	"dependencies": {
+		"normalize-css": "^3"
+	}
+}
