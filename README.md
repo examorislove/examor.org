@@ -1,5 +1,5 @@
 # Examor.org
-## Creating out of love
+Creating out of love
 
-###Important:
+##Important:
 Master branch auto deploys to production server. Please fork and send pull requests to the dev branch
