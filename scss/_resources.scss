@@ -1,0 +1,10 @@
+.resources-title {
+	font-size: 3em;
+	text-align: center;
+
+	&:before {
+		display: block;
+		background: inline-image( 'resources.svg' ) 110px 110px no-repeat;
+	}
+}
+

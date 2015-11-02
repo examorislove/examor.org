@@ -7,4 +7,19 @@ body {
 section {
 	margin: 0 auto;
 	max-width: $body-width;
+
+	p {
+		font-size: 1em;
+		line-height: 2.4em;
+	}
+}
+
+.image-right {
+	float: right;
+	padding-left: 50px;
+}
+
+.image-left {
+	float: left;
+	padding-right: 50px;
 }
