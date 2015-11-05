@@ -1,0 +1,23 @@
+/* Modile styles */
+@media screen and ( max-width: 800px ) {
+	/* 100% mobile width */
+	%mobile-width {
+		width: 100%;
+		clear: both;
+	}
+
+	.logo {
+		margin-top: 60px;
+	}
+
+	.button {
+		@extend %mobile-width;
+	}
+
+	.image-right, .image-left {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding: 0 0 30px 0;
+	}
+}
