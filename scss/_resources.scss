@@ -1,10 +1,24 @@
 .resources-title {
+	margin-bottom: 115px;
+	padding-top: 110px;
 	font-size: 3em;
 	text-align: center;
-
-	&:before {
-		display: block;
-		background: inline-image( 'resources.svg' ) 110px 110px no-repeat;
-	}
+	color: $title-color;
+	background: inline-image( 'resources.svg' ) center top no-repeat;
 }
 
+.gv-resource-title {
+    max-width: 432px;
+    height: 110px;
+	text-indent: -5000em;
+	background: inline-image( 'google_ventures.svg' ) no-repeat;
+	background-size: contain;
+}
+
+.ideo-resource-title {
+    max-width: 432px;
+    height: 110px;
+	text-indent: -5000em;
+	background: inline-image( 'ideo_design_kit.svg' ) no-repeat;
+	background-size: contain;
+}
