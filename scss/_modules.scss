@@ -1,10 +1,6 @@
 .logo {
-    max-width: 432px;
-    height: 237px;
     margin: 90px auto 100px;
-    text-indent: -5000em;
-	background: inline-image( 'logo.svg' ) no-repeat;
-	background-size: contain;
+    @include logo-title( 'logo.svg', 432px, 237px );
 }
 
 .button {

@@ -8,17 +8,9 @@
 }
 
 .gv-resource-title {
-    max-width: 432px;
-    height: 110px;
-	text-indent: -5000em;
-	background: inline-image( 'google_ventures.svg' ) no-repeat;
-	background-size: contain;
+	@include logo-title( 'google_ventures.svg', 432px, 110px );
 }
 
 .ideo-resource-title {
-    max-width: 432px;
-    height: 110px;
-	text-indent: -5000em;
-	background: inline-image( 'ideo_design_kit.svg' ) no-repeat;
-	background-size: contain;
+	@include logo-title( 'ideo_design_kit.svg', 432px, 110px );
 }

@@ -2,7 +2,7 @@
 @import "settings";
 
 // move mixins to their own partial
-// @import "mixins";
+@import "mixins";
 
 // all your styles are belong to us
 @import "CSS:../components/normalize-css/normalize";

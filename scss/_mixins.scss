@@ -1,0 +1,13 @@
+@mixin logo-title( $image-src, $image-width, $image-height, $inline-image:true, $scale:true ) {
+    max-width: $image-width;
+    height: $image-height;
+	text-indent: -5000em;
+	@if $inline-image {
+		background: inline-image( $image-src ) no-repeat;
+	} @else {
+		background: image-url( $image-src ) no-repeat;
+	}
+	@if $scale {
+		background-size: contain;
+	}
+}
