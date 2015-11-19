@@ -11,19 +11,19 @@ section {
 	max-width: $body-width;
 
 	p {
-		font-size: 1em;
+		font-size: 1.2em;
 		line-height: 2.4em;
 	}
 }
 
 .image-right {
 	float: right;
-	padding-left: 50px;
+	padding: 0 0 50px 25px;
 }
 
 .image-left {
 	float: left;
-	padding-right: 50px;
+	padding: 0 50px 25px 0;
 }
 
 // .dropcap {
