@@ -7,10 +7,15 @@
 	display: block;
 	margin: 70px auto 0;
 	width: 420px;
-    padding: 10px 0;
+    padding: 14px 0 10px 0;
     text-align: center;
     font-size: 1.7em;
     color: $title-color;
     text-decoration: none;
     border: 3px solid #999;
+
+    &:hover{
+        color: $transparent-text;
+        background: #999;
+    }
 }
